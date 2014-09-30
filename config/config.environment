@@ -1,0 +1,3 @@
+PASS=${PASS:-$(pwgen -s 12 1)}
+HOST=${HOST:-$(pwgen -s 8 1)}
+
