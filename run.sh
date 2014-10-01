@@ -6,7 +6,8 @@ mkdir -p /data/debug/mysql/mysql/
 ls /data -R
 chown mysql:mysql /data/debug/mysql/mysql
 chmod u+x /provision/provision.sh && /bin/bash /provision/provision.sh
-chown :users /data/ -R
+chown samba_user:users /data/ -R
+chown mysql:mysql /data/debug/mysql -R
 
 
 

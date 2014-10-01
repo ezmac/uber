@@ -56,4 +56,3 @@ RUN apt-get install -y php5-mcrypt
 RUN /usr/sbin/php5enmod mcrypt
 ENTRYPOINT ["/bin/bash", "-c"]
 CMD ["/run.sh"]
-VOLUME ["/data/"]

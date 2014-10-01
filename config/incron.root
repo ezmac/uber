@@ -1,5 +1,5 @@
-/data/config/apache2/ IN_MODIFY service apache2 restart
-/data/config/php5/ IN_MODIFY service apache2 restart
-/data/config/nginx/ IN_MODIFY service nginx restart
-/data/config/samba/ IN_MODIFY service samba restart
-/data/config/mysql/ IN_MODIFY service mysql restart
+/data/config/apache2/ IN_MODIFY /usr/sbin/service apache2 restart
+/data/config/php5/ IN_MODIFY /usr/sbin/service apache2 restart
+/data/config/nginx/ IN_MODIFY /usr/sbin/service nginx reload
+/data/config/samba/ IN_MODIFY /usr/sbin/service samba restart
+/data/config/mysql/ IN_MODIFY /usr/sbin/service mysql restart
